@@ -1,0 +1,54 @@
+sw_volume: 98
+audio_device_state:1:PipeWire Sound Server
+audio_device_state:1:my_fifo
+state: stop
+current: 17
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Blue Archive Symphony/31. II. Out Of Control.wav
+1:Blue Archive Symphony/22. KIRISAME.wav
+2:Blue Archive Symphony/23. Burning Love.wav
+3:Blue Archive Symphony/24. PRST Academy.wav
+4:Blue Archive Symphony/25. Unwelcome School.wav
+5:Blue Archive Symphony/26. Shady Girls.wav
+6:Blue Archive Symphony/27. Pixel Time.wav
+7:Blue Archive Symphony/28. Someday, Sometime.wav
+8:Blue Archive Symphony/29. Interface.wav
+9:Blue Archive Symphony/30. I. Endless Carnival.wav
+10:Blue Archive Symphony/21. Aira.wav
+11:Blue Archive Symphony/32. III. Fearful Utopia.wav
+12:Blue Archive Symphony/33. IV. Oxygen Destroyer.wav
+13:Blue Archive Symphony/34. V. Kaiten Screw!!!.wav
+14:Blue Archive Symphony/35. VI. Library Of Omen.wav
+15:Blue Archive Symphony/36. VII. Undefined Behavior.wav
+16:Blue Archive Symphony/37. VIII. Endless Carnival (Reprise).wav
+17:Blue Archive Symphony/38. Kyrie Eleison.wav
+18:Blue Archive Symphony/39. RE Aoharu.wav
+19:Blue Archive Symphony/40. Constant Moderato (Grand Finale).wav
+20:Blue Archive Symphony/11. Future Bossa.wav
+21:Blue Archive Symphony/02. Luminous Memory.wav
+22:Blue Archive Symphony/03. Aoharu.wav
+23:Blue Archive Symphony/04. Connected Sky.wav
+24:Blue Archive Symphony/05. Shooting Stars.wav
+25:Blue Archive Symphony/06. Step By Step.wav
+26:Blue Archive Symphony/07. Lovely Picnic.wav
+27:Blue Archive Symphony/08. Colorful Mess.wav
+28:Blue Archive Symphony/09. Irasshaimase.wav
+29:Blue Archive Symphony/10. Daily Routine 247.wav
+30:Blue Archive Symphony/01. Constant Moderato.wav
+31:Blue Archive Symphony/12. Midsummer Cat.wav
+32:Blue Archive Symphony/13. Midnight Trip.wav
+33:Blue Archive Symphony/14. Koi Is Love.wav
+34:Blue Archive Symphony/15. Guruguru Usagi.wav
+35:Blue Archive Symphony/16. Usagi Flap.wav
+36:Blue Archive Symphony/17. Hifumi Daisuki.wav
+37:Blue Archive Symphony/18. After The Beep.wav
+38:Blue Archive Symphony/19. Walkthrough.wav
+39:Blue Archive Symphony/20. Sugar Story.wav
+playlist_end

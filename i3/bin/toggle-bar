@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if [ -f /tmp/polybarhidden ]; then 
+  rm -f /tmp/polybarhidden
+  ~/.config/polybar/launch.sh
+else
+  touch /tmp/polybarhidden 
+  pkill polybar && killall polybar
+fi

@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+# get current status
+stats(){
+    # Blue light filter
+    [ -f /tmp/redshift.lock ] && bluelight_stat='On' || bluelight_stat='Off'
+    # Fetch some options
+    source "$HOME"/.config/bspwm/user/options
+}
+
+stats
+
+rofi_cmd() {
+	rofi -dmenu -p "Menu"
+}
+
+apps='Apps'
+power='Power'
+net='Network'
+blue_light="Blue Light Filter: $bluelight_stat"
+close='Close menu'
+
+run_rofi(){
+  echo -e "$apps\n$net\n$blue_light\n$power\n$close" | rofi_cmd
+}
+
+chosen="$(run_rofi)"
+case ${chosen} in
+  "$apps") rofi -show drun ;;
+  "$power") "$HOME"/.config/i3/bin/powermenu ;;
+  "$net") "$HOME"/.config/i3/bin/network ;;
+  "$blue_light") "$HOME"/.config/i3/bin/blue-light ;;
+esac
